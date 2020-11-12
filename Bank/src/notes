@@ -1,0 +1,49 @@
+LOGIN
+customer login / employee login / customer register
+
+REGISTER ROUTE
+user registers -> pending -> employee logs in -> employee confirms
+
+CUSTOMER ROUTE
+user logs in -> OPTIONS
+
+CUSTOMER OPTIONS
+1. new account
+2. view account
+3. alter account
+4. transfer money
+5. accept transfer
+
+CUSTOMER DASHBOARD
+====================
+accounts(money), deposit/withdraw, transfer, create new account
+
+1. NEW ACOUNT INFO
+account#, firstName, lastName, contact, email, balance -> pending1
+
+2. VIEW ACCOUNT
+account#, balance, history
+
+3. ALTER ACCOUNT
+deposit -> (input) amount
+withdraw -> (input) amount
+
+4. TRANSFER MONEY
+a. account to self -> choose account -> choose target account -> input amount
+b. account to other -> choose account -> input target account -> input amount -> pending2
+
+5. ACCEPT TRANSFER
+pending2 -> choose incoming transfer -> accept/reject
+
+EMPLOYEE DASHBOARD
+====================
+pending account creation, view accounts, view logs
+
+PENDING ACCOUNTS
+view list -> pending1 -> accept/reject
+
+VIEW ACCOUNTS
+input account# -> view account info
+
+VIEW LOGS
+input account# -> view info
