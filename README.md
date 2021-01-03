@@ -44,3 +44,6 @@ The Banking API will manage the bank accounts of its users. It will be managed b
 
 ## Usage
 
+You begin in the User Dashboard where you may log in as a customer or an employee. 
+A customer will have options to view their accounts, create a new account, deposit, withdraw, transfer money, or receive a transfer.
+Employees can view all customer accounts and their transaction history as well as approve or reject pending accounts.
