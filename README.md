@@ -7,5 +7,40 @@ The Banking API will manage the bank accounts of its users. It will be managed b
 ## Features
 
 * User
- * Login
- * Registration
+  * Login
+  * Registration
+* Customer
+  * Create checking account
+  * View balance of all accounts
+  * Withdraw / deposit
+  * Transfer money
+  * Recieve transfer
+* Employee
+  * Approve / reject account
+  * View customer account
+  * View customer transaction log
+* System rejects invalid transactions
+
+## Technologies Used
+
+* Java - version 1.8.0_271
+* PostgreSQL - version 42.2.5
+* Maven - version 2.22.1
+* JUnit - version 5.4.2
+* Log4j - version 1.2.17
+
+## Getting Started
+
+1. Copy the repository https url by pressing the green clone button, or
+  copy the url and add .git to the end.
+  
+2. Clone the repository by opening Git Bash at the desired location and running the clone command:
+
+> git clone <url>.git
+  
+3. Open IDE (Spring Tool Suite) that can run a Java Maven project and import as an existing Maven project.
+
+4. Run the Banking app as a Java Application.
+
+## Usage
+
