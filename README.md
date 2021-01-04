@@ -36,7 +36,7 @@ The Banking API will manage the bank accounts of its users. It will be managed b
   
 2. Clone the repository by opening Git Bash at the desired location and running the clone command:
 
-> `git clone (name-of-url).git`
+  `git clone (name-of-url).git`
   
 3. Open IDE (Spring Tool Suite) that can run a Java Maven project and import as an existing Maven project.
 
